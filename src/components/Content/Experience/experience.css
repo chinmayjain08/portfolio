@@ -1,0 +1,42 @@
+.exp{
+    display: flex;
+    border-radius: 10px;
+    padding: 15px;
+    justify-content: space-between;
+    font-family: "Roboto";
+    transition: all ease-in-out 3ms;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.exp:hover{
+    background-color: rgb(24, 53, 85);
+    opacity: 56%;
+    box-shadow:6px 6px rgb(17, 25, 31);
+}
+
+.exp-date{
+    font-size: 12px;
+    font-weight: 600;
+    width: 50%;
+    color: slategray;
+}
+
+.exp-title{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.exp-content{
+    font-size: 13px;
+    color: slategray;
+    font-weight: 500;
+    line-height: 20px;
+    width: 60%;
+}
+
+.exp-text{
+    margin-bottom: 12px;
+}

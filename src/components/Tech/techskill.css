@@ -1,0 +1,12 @@
+.skill{
+    background-color: rgb(18, 46, 48);
+    border-radius: 12px;
+    font-size: 12px;
+    padding: 2px 8px;
+    margin: 3px;
+    color: rgb(98, 191, 160);
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}

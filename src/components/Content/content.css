@@ -1,0 +1,13 @@
+.intro-text{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(125, 136, 147);
+    font-size: 17px;
+}
+
+.intro{
+    margin-bottom: 140px;
+}
