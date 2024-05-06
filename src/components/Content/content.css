@@ -11,3 +11,30 @@
 .exp-intro{
     margin-bottom: 140px;
 }
+
+.resume{
+    padding: 10px 12px;
+    border-radius: 6px;
+    background-color: rgb(25, 30, 56);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.resume a{
+    color: rgb(197, 208, 255);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.resume:hover{
+    background-color: rgb(197, 208, 255);
+}
+
+.resume:hover a{
+    color: rgb(25, 30, 56);
+}
+

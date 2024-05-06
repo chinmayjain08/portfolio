@@ -1,6 +1,7 @@
 import React from "react";
 import './content.css';
 import Experience from "./Experience/Experience";
+import pdf from './resume.pdf'
 
 function Content() {
   return (
@@ -32,6 +33,16 @@ function Content() {
 
         <Experience date={"JULY 2022 - NOVEMBER 2022"} title={"Frontend Developer"} text={"Raise Digital provided a remote internship role where I learnt the basics of web development and designCertification in affiliation with Techniche 2022 - IIT Guwahati"} tech={["HTML5", "CSS3", "Javascript", "Responsiveness", "Developer Tools"]}/>
 
+      </div>
+
+
+      <div className = "resume">
+          <a href = {pdf} target = "_blank">Veiw Full Resume</a>
+      </div>
+
+
+      <div className="projects">
+        
       </div>
     </div>
   );
