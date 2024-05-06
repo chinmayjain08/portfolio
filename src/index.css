@@ -5,10 +5,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
     border-radius: 100%;
-    background-image: linear-gradient(#070064 10%, #2a005e);
+    background-image: linear-gradient(#0900ba 10%, #190038);
     filter: blur(250px);
     transition: all 450ms ease-out;
     position: fixed;
