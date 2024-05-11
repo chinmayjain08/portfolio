@@ -1,7 +1,16 @@
 import React from 'react'
 import './Navigation.css'
+import { ImInstagram } from "react-icons/im";
+import { ImLinkedin } from "react-icons/im";
+import { FaXTwitter } from "react-icons/fa6";
+import { ImGithub } from "react-icons/im";
+import { ImWhatsapp } from "react-icons/im";
+import { MdOutlineHorizontalRule } from "react-icons/md";
+
+
 
 function Navigation() {
+
   return (
     <div className='navigation'>
 
@@ -12,17 +21,17 @@ function Navigation() {
         </section>
 
         <section className="nav">
-            <p className="navlinks">ABOUT</p>
-            <p className="navlinks">EXPERIENCE</p>
-            <p className="navlinks">PROJECTS</p>
+            <p className="navlinks nav-about"><span className='line'></span> ABOUT</p>
+            <p className="navlinks nav-exp"><span className='line'></span> EXPERIENCE</p>
+            <p className="navlinks nav-pro"><span className='line'></span> PROJECTS</p>
         </section>
 
         <section className="socials">
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
-            <span>4</span>
-            <span>5</span>
+            <span><ImLinkedin/></span>
+            <span><ImInstagram/></span>
+            <span><ImGithub/></span>
+            <span><FaXTwitter/></span>
+            <span><ImWhatsapp/></span>
         </section>
     </div>
   )

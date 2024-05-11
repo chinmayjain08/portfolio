@@ -2,6 +2,7 @@ import React from "react";
 import './content.css';
 import Experience from "./Experience/Experience";
 import pdf from './resume.pdf'
+import Projects from "./Project/Projects";
 
 function Content() {
   return (
@@ -24,7 +25,7 @@ function Content() {
           When not at computer, I am usually chilling out with friends, making new connections on socials, or having really good food at any place in the city.
         </p>
       </div>
-      <div className="prof-exp">
+      <div className="prof-exp" id="experience">
         <Experience date={"JUNE 2023 - PRESENT"} title={"Full Stack Developer"} text={"Got firsthand experience with project management while managing a team. Concentrated on building user-friendly websites while improving my skillset and doing practical experiments with new technologies"} tech={["React.js", "Team Management", "Tailwind", "Node.js", "Express.js", "MongoDB"]}/>
 
         <Experience date={"JULY 2023 - SEPTEMBER 2023"} title={"Software Engineer Intern"} text={"Built an end-to-end SAAS application Rentellar gaining hands on experience of Agile Software Development"} tech={["React.js", "Next.js", "SDLC","SAAS", "Golang", "MongoDB"]}/>
@@ -35,14 +36,13 @@ function Content() {
 
       </div>
 
-
       <div className = "resume">
           <a href = {pdf} target = "_blank">Veiw Full Resume</a>
       </div>
 
 
-      <div className="projects">
-        
+      <div className="projects" id="projects">
+        <Projects/>
       </div>
     </div>
   );
