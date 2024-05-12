@@ -1,0 +1,47 @@
+.hor-navbar{
+    width: 96%;
+    position: fixed;
+    left: 4%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    color: white;
+    /* background-color: antiquewhite; */
+    font-family: "Poppins";
+}
+
+.nav-name a{
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-button{
+    padding: 8px 20px;
+    border: 0.5px solid slategray;
+    transition: all ease 0.5s;
+    margin-right: 20px;
+}
+
+.nav-button a{
+    color: white;
+    text-decoration: none;
+    transition: all ease 0.5s;
+    font-weight: 500;
+}
+
+.nav-button:hover{
+    background-color: rgb(217, 217, 217);
+}
+
+.nav-button:hover a{
+    color: rgb(13, 24, 42);
+}

@@ -1,14 +1,17 @@
 import React from "react";
 import './content.css';
+import { useState } from "react";
 import Experience from "./Experience/Experience";
 import pdf from './resume.pdf'
 import Projects from "./Project/Projects";
+import { FaHandLizard } from "react-icons/fa6";
 
 function Content() {
+
   return (
     <div className="content">
       <div className="exp-intro">
-        <p className="intro-text">
+        <p className="intro-text" >
           Back in 2021, I decided to try my hand at creating my own website and
           tumbled head first into the rabbit hole of coding and web development.
           Fast-forward to today, and I’ve had the privilege of building

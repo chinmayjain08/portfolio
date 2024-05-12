@@ -1,12 +1,21 @@
 .pro{
     width: 100%;
-    background-color: rgb(5, 12, 58);
+    /* background-color: rgb(5, 12, 58); */
     display: flex;
     padding: 15px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     margin-bottom: 60px;
+}
+
+.pro:hover{
+    background-color: rgb(14, 31, 49);
+    box-shadow:6px 6px rgb(17, 25, 31);
+}
+
+.pro:hover .pro-image, .pro-text{
+    opacity: 60%;
 }
 
 .pro-image{
@@ -21,7 +30,6 @@
 
 .pro-content{
     color: rgb(128, 128, 128);
-    font-family: "Roboto";
     display: flex;
     width: 55%;
     flex-direction: column;
@@ -33,25 +41,21 @@
     font-weight: 600;
     font-size: 16px;
     color: white;
+    font-family: "Poppins";
 }
 
 .pro-text{
-    margin-top: 8px;
+    margin-top: 10px;
+    margin-bottom: 12px;
     font-size: 13px;
     font-weight: 500;
     line-height: 18px;
     text-align: justify;
+    font-family: "Poppins";
 }
 
 .pro-link{
-    margin-top: 8px;
-    padding: 11px 13px;
-    background-color: rgb(3, 0, 45);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    border-radius: 4px;
+    margin-top: 12px;
 }
 
 .pro-link a{
@@ -59,4 +63,5 @@
     font-size: 13px;
     font-weight: 600;
     text-decoration: none;
+    font-family: "Poppins";
 }

@@ -1,0 +1,59 @@
+.about{
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-about{
+    width: 96%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img{
+    width: 100%;
+    filter: grayscale(100);
+    transition: all ease 0.5s;
+}
+
+.about-image:hover img{
+    filter: grayscale(0);
+}
+
+.about-text{
+    display: flex;
+    width: 40%;
+    color: white;
+    font-family: "Poppins";
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ab-heading{
+    font-weight: 600;
+    font-size: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ab-para{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 20px;
+}

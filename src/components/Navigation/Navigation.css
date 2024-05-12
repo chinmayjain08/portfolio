@@ -14,6 +14,7 @@
     font-weight: 700;
     margin-bottom: 10px;
     font-size: 50px;
+    font-family: "Poppins";
 }
 
 .position{
@@ -21,23 +22,37 @@
     margin-bottom: 10px;
     color: rgb(193, 200, 207);
     font-size: 22px;
+    font-family: "Poppins";
 }
 
 .tagline{
     font-weight: 400;
     color: slategray;
+    font-family: "Poppins";
 }
 .nav{
     width: 100%;
 }
-.navlinks{
+.nav a{
+    text-decoration: none;
     font-weight: 500;
+    font-weight: 600;
+    font-family: "Poppins";
+    font-size: 16px;
+    color: white;
+}
+.navlinks{
     margin-bottom: 6px;
     display: flex;
     align-items: center;
-    font-weight: 600;
-    font-family: "Poppins";
-    font-size: 14px;
+}
+
+.navlinks:hover .line{
+    width: 16%;
+}
+
+.active{
+    width: 16%;
 }
 
 .line{
@@ -45,18 +60,7 @@
     height: 0.5px;
     width: 10%;
     margin-right: 22px;
-}
-
-.nav-about{
-    
-}
-
-.nav-exp{
-
-}
-
-.nav-pro{
-
+    transition: all 0.5s ease-in-out;
 }
 
 .socials{
@@ -67,6 +71,14 @@
     font-size: 24px;
 }
 
-.socials:hover {
-    cursor: pointer;
+.socials a{
+    text-decoration: none;
+    color: white;
+    transition: all ease 0.5s;
 }
+
+.handle:hover{
+ cursor: pointer;
+ color: rgb(186, 223, 255);
+}
+

@@ -6,7 +6,7 @@ function Project() {
   return (
     <>
       {details.map((project, i) => {
-        return <SingleProject title={project.title} text={project.text} image={project.image} link={project.link} key={i}/>;
+        return <SingleProject title={project.title} text={project.text} image={project.image} link={project.link} tech={project.tech} key={i}/>;
       })}
     </>
   );

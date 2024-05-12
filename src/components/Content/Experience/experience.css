@@ -10,16 +10,20 @@
 }
 
 .exp:hover{
-    background-color: rgb(24, 53, 85);
-    opacity: 60%;
+    background-color: rgb(14, 31, 49);
     box-shadow:6px 6px rgb(17, 25, 31);
+}
+
+.exp:hover .exp-date, .exp-text{
+    opacity: 60%;
 }
 
 .exp-date{
     font-size: 12px;
     font-weight: 600;
-    width: 50%;
+    width: 40%;
     color: slategray;
+    font-family: "Poppins";
 }
 
 .exp-title{
@@ -27,6 +31,7 @@
     font-weight: 700;
     margin-bottom: 12px;
     color: white;
+    font-family: "Poppins";
 }
 
 .exp-content{
@@ -40,4 +45,5 @@
 .exp-text{
     margin-bottom: 12px;
     text-align: justify;
+    font-family: "Poppins";
 }

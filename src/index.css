@@ -1,3 +1,7 @@
+*{
+    scroll-behavior: smooth;
+}
+
 body{
     overflow-x: hidden;
     -webkit-user-select: none; /* Safari */
@@ -11,7 +15,7 @@ body{
     width: 350px;
     height: 350px;
     border-radius: 100%;
-    background-image: linear-gradient(#0900ba 10%, #190038);
+    background-image: linear-gradient(#0900ba 10%, #110092);
     filter: blur(250px);
     transition: all 450ms ease-out;
     position: fixed;

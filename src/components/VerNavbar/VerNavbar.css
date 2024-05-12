@@ -1,0 +1,42 @@
+.ver-navbar{
+    display: flex;
+    flex-direction: column-reverse;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 4%;
+    /* background-color: transparent; */
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px 10px;
+    border-right: 1px solid grey;
+}
+
+.ver-text{
+    margin-top: 36vh;
+    width: 30vh;
+    transform: rotate(-90deg);
+}
+
+.ver-text p{
+    color: rgb(178, 178, 178);
+    font-family: "Roboto";
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.ver-socials{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 26px;
+}
+
+.ver-socials a{
+    text-decoration: none;
+    color: white;
+}
