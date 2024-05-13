@@ -7,8 +7,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 94vh;
-    margin-bottom: 40px;
+    height: 90vh;
+    margin-bottom: 20px;
 }
 
 .about-image{
@@ -74,9 +74,10 @@
 
 .techStack-para{
     font-size: 20px;
+    color: rgb(174, 174, 174);
 }
 
-.skills{
+.stack-skills{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,5 +89,307 @@
     width: 33%;
     border: 1px solid gray;
     padding: 10px;
-    height: 60vh;
+    height: 68vh;
+    color: rgb(131, 131, 131);
+    position: relative;
+}
+
+.f-head{
+    width: 100%;
+    text-align: center;
+    color: rgb(230, 230, 230);
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Poppins";
+    position: absolute;
+    top: 42%;
+    transition: all ease 0.5s;
+}
+
+.frontend:hover .f-head{
+    display: none;
+}
+
+.react{
+    font-size: 140px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    opacity: 30%;
+    transition: all ease 0.5s;
+}
+
+.react:hover{
+    color: white;
+    opacity: 100%;
+}
+
+.next{
+    font-size: 130px;
+    position: absolute;
+    right: 80px;
+    top: 50px;
+    opacity: 30%;
+    transition: all ease 0.5s;
+}
+
+.next:hover{
+    color: white;
+    opacity: 100%;
+}
+
+.html{
+    font-size: 140px;
+    position: absolute;
+    left: 60px;
+    top: 36%;
+    opacity: 30%;
+    transition: all ease 0.5s;
+}
+
+.html:hover{
+    color: white;
+    opacity: 100%;
+}
+
+.css{
+    font-size: 140px;
+    position: absolute;
+    right: 30px;
+    top: 40%;
+    opacity: 30%;
+    transition: all ease 0.5s;
+}
+
+.css:hover{
+    color: white;
+    opacity: 100%;
+}
+
+.tailwind{
+    font-size: 140px;
+    position: absolute;
+    right: 50px;
+    bottom: 0px;
+    opacity: 30%;
+    transition: all ease 0.5s;
+}
+
+.tailwind:hover{
+    color: white;
+    opacity: 100%;
+}
+
+.bootstrap{
+    font-size: 140px;
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+    opacity: 30%;
+    transition: all ease 0.5s;
+}
+
+.bootstrap:hover{
+    color: white;
+    opacity: 100%;
+}
+
+.b-head{
+    width: 100%;
+    text-align: center;
+    color: rgb(230, 230, 230);
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Poppins";
+    position: absolute;
+    top: 42%;
+    transition: all ease 0.5s;
+}
+
+.backend:hover .b-head{
+    display: none;
+}
+
+.node{
+    font-size: 140px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    opacity: 30%;
+    transition: all ease 0.5s;
+}
+
+.node:hover{
+    color: white;
+    opacity: 100%;
+}
+
+.express{
+    font-size: 130px;
+    position: absolute;
+    right: 80px;
+    top: 50px;
+    opacity: 30%;
+    transition: all ease 0.5s;
+}
+
+.express:hover{
+    color: white;
+    opacity: 100%;
+}
+
+.mongo{
+    font-size: 140px;
+    position: absolute;
+    left: 60px;
+    top: 36%;
+    opacity: 30%;
+    transition: all ease 0.5s;
+}
+
+.mongo:hover{
+    color: white;
+    opacity: 100%;
+}
+
+.postgre{
+    font-size: 140px;
+    position: absolute;
+    right: 30px;
+    top: 40%;
+    opacity: 30%;
+    transition: all ease 0.5s;
+}
+
+.postgre:hover{
+    color: white;
+    opacity: 100%;
+}
+
+.sql{
+    font-size: 140px;
+    position: absolute;
+    right: 50px;
+    bottom: 0px;
+    opacity: 30%;
+    transition: all ease 0.5s;
+}
+
+.sql:hover{
+    color: white;
+    opacity: 100%;
+}
+
+.golang{
+    font-size: 140px;
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+    opacity: 30%;
+    transition: all ease 0.5s;
+}
+
+.golang:hover{
+    color: white;
+    opacity: 100%;
+}
+
+.t-head{
+    width: 100%;
+    text-align: center;
+    color: rgb(230, 230, 230);
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Poppins";
+    position: absolute;
+    top: 42%;
+    transition: all ease 0.5s;
+}
+
+.tools:hover .t-head{
+    display: none;
+}
+
+.vs{
+    font-size: 140px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    opacity: 30%;
+    transition: all ease 0.5s;
+}
+
+.vs:hover{
+    color: white;
+    opacity: 100%;
+}
+
+.git{
+    font-size: 130px;
+    position: absolute;
+    right: 80px;
+    top: 50px;
+    opacity: 30%;
+    transition: all ease 0.5s;
+}
+
+.git:hover{
+    color: white;
+    opacity: 100%;
+}
+
+.github{
+    font-size: 140px;
+    position: absolute;
+    left: 60px;
+    top: 36%;
+    opacity: 30%;
+    transition: all ease 0.5s;
+}
+
+.github:hover{
+    color: white;
+    opacity: 100%;
+}
+
+.figma{
+    font-size: 120px;
+    position: absolute;
+    right: 30px;
+    top: 39%;
+    opacity: 30%;
+    transition: all ease 0.5s;
+}
+
+.figma:hover{
+    color: white;
+    opacity: 100%;
+}
+
+.canva{
+    font-size: 140px;
+    position: absolute;
+    right: 50px;
+    bottom: 0px;
+    opacity: 30%;
+    transition: all ease 0.5s;
+}
+
+.canva:hover{
+    color: white;
+    opacity: 100%;
+}
+
+.vercel{
+    font-size: 140px;
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+    opacity: 30%;
+    transition: all ease 0.5s;
+}
+
+.vercel:hover{
+    color: white;
+    opacity: 100%;
 }

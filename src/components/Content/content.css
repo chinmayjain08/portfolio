@@ -39,3 +39,14 @@
     color: rgb(25, 30, 56);
 }
 
+.end-text{
+    color: slategray;
+    font-family: "Poppins";
+    font-weight: 400;
+    margin-top: 80px;
+}
+.end-text span{
+    color: white;
+    font-weight: 500;
+}
+

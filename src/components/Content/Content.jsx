@@ -47,6 +47,10 @@ function Content() {
       <div className="projects" id="projects">
         <Projects/>
       </div>
+
+      <div className="end-text">
+        Loosely taken inspiration and coded in Visual Studio Code by yours truly. Built with <span>React.js</span> and <span>Original Pure form CSS</span>, deployed with <span>Vercel</span>. 
+      </div>
     </div>
   );
 }
