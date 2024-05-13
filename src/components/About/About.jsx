@@ -17,17 +17,24 @@ function About() {
         <div className="about-text">
           <div className="ab-heading">A Bit About Me <MdOutlineDoubleArrow/></div>
             <div className="ab-para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio omnis veritatis minima quia doloremque nulla dolore
-              nesciunt officia cum, molestias modi, deleniti libero eveniet
-              veniam, vel iusto facilis expedita minus!
+              Hello, I am Chinmay Jain, currently in third year of my bachelors in Computer Science Engineering. I am a full stack developer and I build modern and progressive websites and web applications for all purposes, may it be a portfolio website like you are currently going through, a service oriented website to tell the world about what all you can offer or an e-commerce website for your business. 
             </div>
             <div className="ab-para">
-              Assumenda odio excepturi possimus reiciendis aperiam repellendus
-              unde minus perspiciatis reprehenderit? Debitis, eos neque tempora
-              iure dicta quos deserunt sequi ea. Minus nam eum reprehenderit
-              sint aspernatur earum fuga ut.
+              Enough of professional details, now, talking about what else I do. I absolutely love travelling and hanging out with friends. Ice cream is true love for me. Interacting and getting to know people is what I do the most.
             </div>
+        </div>
+      </div>
+      <div className="techStack">
+        <div className="skill-intro">
+            <div className="techStack-heading">
+              <h3>TECH STACK</h3>
+            </div>
+            <div className="techStack-para">
+              <p>Ofcourse tools ar required for craftsmanship</p>
+            </div>
+        </div>
+        <div className="skills">
+          <div className="frontend"></div>
         </div>
       </div>
     </div>

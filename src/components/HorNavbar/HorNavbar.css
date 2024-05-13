@@ -7,8 +7,9 @@
     justify-content: space-between;
     padding: 20px 80px;
     color: white;
-    /* background-color: antiquewhite; */
+    background-color: rgb(15, 23, 42);
     font-family: "Poppins";
+    z-index: 9;
 }
 
 .nav-name a{
