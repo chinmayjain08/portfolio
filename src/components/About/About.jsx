@@ -30,11 +30,19 @@ function About() {
               <h3>TECH STACK</h3>
             </div>
             <div className="techStack-para">
-              <p>Ofcourse tools ar required for craftsmanship</p>
+              <p>Ofcourse tools are needed for craftsmanship</p>
             </div>
         </div>
         <div className="skills">
-          <div className="frontend"></div>
+          <div className="frontend">
+
+          </div>
+          <div className="backend">
+
+          </div>
+          <div className="tools">
+            
+          </div>
         </div>
       </div>
     </div>
