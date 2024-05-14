@@ -381,7 +381,7 @@
 }
 
 .vercel{
-    font-size: 140px;
+    /* font-size: 140px; */
     position: absolute;
     left: 30px;
     bottom: 0px;
@@ -392,4 +392,42 @@
 .vercel:hover{
     color: white;
     opacity: 100%;
+}
+
+@media screen and (max-width: 440px){
+    .main-about{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 5vh;
+    }
+    .about-image{
+        width: 100%;
+        margin-bottom: 3vh;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .ab-heading{
+        font-size: 32px;
+    }
+    
+    .stack-skills{
+        flex-direction: column;
+    }
+    .frontend, .backend, .tools{
+        width: 100%;
+        display: flex;
+        position: static;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .f-head, .b-head, .t-head{
+        font-size: 32px;
+        position: static;
+    }
+    .react,.next,.html,.css,.bootstrap,.tailwind, .node, .golang, .postgre, .sql, .mongo, .express, .vs, .canva, .figma, .git, .github, .vercel{
+        font-size: 110px;
+        position: static;
+    }
 }

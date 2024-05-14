@@ -47,3 +47,18 @@
     text-align: justify;
     font-family: "Poppins";
 }
+
+@media screen and (max-width: 440px){
+    .exp{
+        padding: 0px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+    .exp-date{
+        width: 100%;
+    }
+    .exp-content{
+        width: 100%;
+    }
+}

@@ -50,3 +50,8 @@
     font-weight: 500;
 }
 
+@media screen and (max-width: 440px){
+    .resume{
+        width: 60%;
+    }
+}

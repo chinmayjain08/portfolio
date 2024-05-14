@@ -2,3 +2,19 @@
     width: 100%;
     margin-left: 45%;
 }
+
+.content{
+    width: 84%;
+    color: rgb(180, 180, 180);
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 440px){
+    .home{
+        margin-left: 0px;
+        margin-top: 60vh;
+    }
+    .content{
+        width: 100%;
+    }
+}

@@ -12,17 +12,8 @@
     font-family: "Roboto";
 }
 
-.navbar{
-    width: 24%;
-    height: 70vh;
-    position: fixed;
-    top: 12%;
-    left: 14%;
-    color: white;
-}
-
-.content{
-    width: 84%;
-    color: rgb(180, 180, 180);
-    margin-bottom: 80px;
+@media screen and (max-width: 440px){
+    .portfolio{
+        padding: 20px 40px;
+    }
 }
