@@ -69,7 +69,7 @@
 @media screen and (max-width: 440px){
     .pro{
         flex-direction: column;
-        padding: 0px;
+        padding: 10px;
     }
     .pro-image{
         width: 90%;
