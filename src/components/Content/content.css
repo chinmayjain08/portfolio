@@ -54,4 +54,11 @@
     .resume{
         width: 60%;
     }
+    .intro-text{
+        line-height: 18px;
+        font-size: 15px;
+    }
+    .exp-intro{
+        margin-bottom: 80px;
+    }
 }
